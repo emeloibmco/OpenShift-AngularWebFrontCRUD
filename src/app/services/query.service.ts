@@ -10,9 +10,9 @@ export class QueryService {
   selectclients: Clientmodel;
   client: Clientmodel[];
 
-  readonly URL_API_CREATE_TRANSACTION = 'http://crudformongo-workshopdemo.ocpcloudpakapp-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/api/customers';
-  readonly URL_API_GET_TRANSACTIONS = 'http://crudformongo-workshopdemo.ocpcloudpakapp-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/api/customers';
-  readonly URL_API_DELETE = 'http://crudformongo-workshopdemo.ocpcloudpakapp-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/api/customers/';
+  readonly URL_API_CREATE_TRANSACTION = 'http://apicrudformongo-workshopdemo.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/api/customers';
+  readonly URL_API_GET_TRANSACTIONS = 'http://apicrudformongo-workshopdemo.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/api/customers';
+  readonly URL_API_DELETE = 'http://apicrudformongo-workshopdemo.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/api/customers/';
 
   constructor(public httpClient: HttpClient)
   {
