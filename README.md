@@ -116,7 +116,7 @@ Git clone <url_repositorio>
 ```
 _8.	Dirigirse desde a esta carpeta con el comando:_
 
-_•	Para la carpeta del proyecto Hello word:_
+_•	Para la carpeta del proyecto AngularWebFrontCRUD:_
 ```
 cd AngularWebFrontCRUD
 ```
