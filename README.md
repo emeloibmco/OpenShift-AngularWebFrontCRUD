@@ -1,12 +1,14 @@
 # AngularWebFrontCRUD
 
-Esta aplicación se construyó para ser parte de una arquitectura multi-capa. Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.
+Esta aplicación se construyó para ser el FRONT o interfaz de usuario de una arquitectura multi-capa. Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.
 
 La aplicación esta compuesta por 3 contenedores:
 
-- Front, front desarrollado en Angular, para la interfaz de usuario Web
+- El Front, front desarrollado en Angular, para la interfaz de usuario Web --> Esta guía 
 - CRUD, backend desarrollado en express, que expone API's para la operaciones hacia la base de datos
 - MongoDB, un contenedor con el motor de la base de datos MongoDB
+
+**Tanto el Backend como la base de datos los pueden encontrar con su respectiva guía en el siguiente link: https://github.com/emeloibmco/AngularWebCRUDMongo
 
 # Funcionamiento de la aplicación 
 
