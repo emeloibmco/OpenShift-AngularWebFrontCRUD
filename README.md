@@ -172,7 +172,7 @@ npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --image
 _El resultado de este comando va a ser una respuesta de este tipo, que nos indica que 
 la aplicación se desplego correctamente._
 
-<img width="700" alt="2" src="https://user-images.githubusercontent.com/60987042/76918560-9441a500-6894-11ea-954f-62c8076b8903.PNG">
+<img width="700" alt="efecty oc" src="https://user-images.githubusercontent.com/45157348/77031132-ab54c580-696e-11ea-8f1f-e2d4276ee826.PNG">
 
 _10.	Para poder acceder al la URL de la aplicación y realizar la verificación de la misma debemos:_
 
@@ -187,8 +187,6 @@ _•Ingresar al cluster que lleva por nombre openshift.311._
 _•Ingrese a la sección de openshift web console._
 
 _•Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se desplego._
-
-<img width="700" alt="efecty oc" src="https://user-images.githubusercontent.com/45157348/77031132-ab54c580-696e-11ea-8f1f-e2d4276ee826.PNG">
 
 _Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
 
