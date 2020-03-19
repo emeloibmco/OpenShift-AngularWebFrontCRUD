@@ -8,15 +8,15 @@ El objetivo de la aplicación demo Web CRUD con MongoDB es generar un sistema de
 
 La primera de ellas como se puede observar en la imagen inferior, consiste en la página de bienvenida al sistema, que le muestra al usuario dos botones, con las dos funcionalidades principales, las cuales son observar las transacciones realizadas y agregar una nueva transacción.
 
-<img width="960" alt="efecty menu" src="https://user-images.githubusercontent.com/45157348/77029483-cec94180-6969-11ea-9efe-f00a2e024919.PNG">
+<img width="700" alt="efecty menu" src="https://user-images.githubusercontent.com/45157348/77029483-cec94180-6969-11ea-9efe-f00a2e024919.PNG">
 
 La siguiente parte es al seleccionar la opción de agregar una nueva transacción, donde se puede observar la pantalla con un formulario que obtiene los datos principales de control de una transacción, los cuales son: nombre, apellido, cedula, fecha de la transacción, dirección de residencia, ciudad, valor y tipo de transacción. Aquí lo que se espera es que los cajeros de las sedes de Efecty, registren los datos y mantengan en control las transacciones realizadas por los clientes de la empresa.
 
-<img width="948" alt="efecty 2" src="https://user-images.githubusercontent.com/45157348/77028673-7b55f400-6967-11ea-989e-d9d1a9b40d12.PNG">
+<img width="700" alt="efecty 2" src="https://user-images.githubusercontent.com/45157348/77028673-7b55f400-6967-11ea-989e-d9d1a9b40d12.PNG">
 
 Por último, se observa la siguiente opción del menu de bienvenida que es el de observar el historial de transacciones, dentro de esta pantalla se pueden observar las distintas transacciones que se han realizado en el sistema con su información pertinente, además de presentar la funcionalidad de eliminar una transacción por medio del boton borrar, donde elimina completamente todo el registro de la transacción.
 
-<img width="958" alt="efecty lista" src="https://user-images.githubusercontent.com/45157348/77029486-cf61d800-6969-11ea-842b-41a76b10814a.PNG">
+<img width="700" alt="efecty lista" src="https://user-images.githubusercontent.com/45157348/77029486-cf61d800-6969-11ea-842b-41a76b10814a.PNG">
 
 
 # Despliegue en OpenShift desde IBM Cloud shell: 🚀
@@ -65,7 +65,7 @@ https://cloud.ibm.com/
 _•	Diríjase al resource list._
 _Primero debe dar clic en el navigation menu y luego donde dice Resource list, como se puede ver en la siguiente imagen:_
 
-<img width="696" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
+<img width="700" alt="7" src="https://user-images.githubusercontent.com/60987042/76996077-da434b00-691e-11ea-92be-558da48f7d97.PNG">
 
 
 _•	Diríjase a la sección de clústers y dar clic en el que se desea acceder._
@@ -119,7 +119,7 @@ npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --image
 _El resultado de este comando va a ser una respuesta de este tipo, que nos indica que 
 la aplicación se desplego correctamente._
 
-<img width="865" alt="2" src="https://user-images.githubusercontent.com/60987042/76918560-9441a500-6894-11ea-954f-62c8076b8903.PNG">
+<img width="700" alt="2" src="https://user-images.githubusercontent.com/60987042/76918560-9441a500-6894-11ea-954f-62c8076b8903.PNG">
 
 _10.	Para poder acceder al la URL de la aplicación y realizar la verificación de la misma debemos:_
 
