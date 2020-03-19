@@ -8,7 +8,7 @@ La aplicación esta compuesta por 3 contenedores:
 - CRUD, backend desarrollado en express, que expone API's para la operaciones hacia la base de datos
 - MongoDB, un contenedor con el motor de la base de datos MongoDB
 
-**Tanto el Backend como la base de datos los pueden encontrar con su respectiva guía en el siguiente link: https://github.com/emeloibmco/AngularWebCRUDMongo
+** Tanto el CRUD (backend) como la base de datos (MongDB) los pueden encontrar con su respectiva guía de despliegue en el siguiente link: https://github.com/emeloibmco/AngularWebCRUDMongo
 
 # Funcionamiento de la aplicación 
 
@@ -102,11 +102,11 @@ _5.	Acceda al proyecto que acabo de crear de la siguiente manera:_
 oc project <projectname>
 ```
 
-## Despliegue Aplicación Hello World en Angular 📦
+## Despliegue Del FRONT de la Aplicación 📦
 
 _6.	Clone el repositorio de la aplicación que se desea desplegar._
 
-_**App de hello Word en angular:** https://github.com/emeloibmco/AngularHelloWorld_
+_**URL app de AngularWebFrontCRUD:** https://github.com/emeloibmco/AngularHelloWorld_
 
 
 _7.	Desde el Shell de IBM cloud digite el comando:_
@@ -118,7 +118,7 @@ _8.	Dirigirse desde a esta carpeta con el comando:_
 
 _•	Para la carpeta del proyecto Hello word:_
 ```
-cd AngularHelloWorld
+cd AngularWebFrontCRUD
 ```
 _9.	Para desplegar la aplicación en OpenShift es necesario escribir el siguiente comando:_
 ```
