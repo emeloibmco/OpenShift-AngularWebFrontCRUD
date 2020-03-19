@@ -30,7 +30,6 @@ Por último, se observa la siguiente opción del menu de bienvenida que es el de
 
 - Haber realizado y desplegado el Backend del CRUD y la creación de la base de datos del link: https://github.com/emeloibmco/AngularWebCRUDMongo
 
-
 # Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
 ### Haga 'login' a IBM Cloud desde la línea de comando
@@ -108,10 +107,11 @@ oc project <projectname>
 
 ## Despliegue Del FRONT de la Aplicación 📦
 
+### Clonar repositorio desde GitHub
+
 _6.	Clone el repositorio de la aplicación que se desea desplegar._
 
 _**URL app de AngularWebFrontCRUD:** https://github.com/emeloibmco/AngularWebFrontCRUD.git_
-
 
 _7.	Desde el Shell de IBM cloud digite el comando:_
 
@@ -124,6 +124,42 @@ _•	Para la carpeta del proyecto AngularWebFrontCRUD:_
 ```
 cd AngularWebFrontCRUD
 ```
+
+### Cambio credenciales CRUD en el proyecto Angular 
+
+** En caso de no haber desplegado el Back, se puede manejar la conexión que ya se encuentra en el OpenShift y puede seguir al siguiente paso de la guía  ** 
+
+_Despues de realizar el despliegue del Backend del CRUD en OpenShift es necesario cambiar las credenciales de acceso desde el FRONT, por lo tanto se debe seguir los siguientes pasos para modificar el archivo query.service.ts, el cual es donde está ubicado la conexión al BackEnd:_
+
+_1. Desde el shell de IBM Cloud digitamos este comando para ir a la locación del archivo que vamos a editar:_
+```
+cd src/app/services
+```
+_Este comando lo que hace es redirigir a la carpeta donde esta alojado el archivo previamente mencionado_
+
+_2. Para editar el archivo vamos a utilizar el editor de texto por defecto del IBM Cloud Shell, el cual es nano, por lo tanto se debe digitar el siguiente comando para modificar las credenciales:_
+```
+nano query.service.ts
+```
+_Aquí se accede a una pantalla similar a está, que es donde se editará el código de acceso al BackEnd:_
+
+_3. Para hacer el cambio de las credenciales, se necesita la URL que arroja el despliegue del BackEnd, con dicha URL lo que se debe hacer es remplazar esta sección con las nuevas credenciales de la siguiente manera:_
+```
+  readonly URL_API_CREATE_TRANSACTION = '<URL DEL NUEVO DESPLIEGUE>/api/customers';
+  readonly URL_API_GET_TRANSACTIONS = '<URL DEL NUEVO DESPLIEGUE>/api/customers';
+  readonly URL_API_DELETE = '<URL DEL NUEVO DESPLIEGUE>/api/customers';
+```
+_Para cada una de las variables a editar es necesario que al final siempre termine con /api/customers para que acceda a los puertos indicados._
+
+_4. Se guarda el archivo con la nueva edición digitando CTRL+X , cuando aparezca la pregunta si se desea guardar los cambios se digita Y y se pulsa ENTER, ya de esta manera los cambios quedan guardados y se puede realizar el siguiente paso._
+
+_5. Por último, regresamos a la carpeta principal del proyecto digitando 3 veces el siguiente comando:_
+```
+  cd ..
+```
+_Despues de este paso es necesario, verificar que en el shell aparezca esta ruta como la actual:_
+### Despliegue aplicación OpenShift
+
 _9.	Para desplegar la aplicación en OpenShift es necesario escribir el siguiente comando:_
 ```
 npx nodeshift --strictSSL=false --dockerImage=nodeshift/ubi8-s2i-web-app --imageTag=10.x --build.env OUTPUT_DIR=dist/angular-web-app --expose
