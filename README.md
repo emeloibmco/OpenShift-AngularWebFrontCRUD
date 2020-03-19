@@ -143,6 +143,8 @@ nano query.service.ts
 ```
 _Aquí se accede a una pantalla similar a está, que es donde se editará el código de acceso al BackEnd:_
 
+<img width="700" alt="img 1" src="https://user-images.githubusercontent.com/45157348/77068099-05c44500-69b4-11ea-8a85-035d4e35fe6f.PNG">
+
 _3. Para hacer el cambio de las credenciales, se necesita la URL que arroja el despliegue del BackEnd, con dicha URL lo que se debe hacer es remplazar esta sección con las nuevas credenciales de la siguiente manera:_
 ```
   readonly URL_API_CREATE_TRANSACTION = '<URL DEL NUEVO DESPLIEGUE>/api/customers';
@@ -158,6 +160,9 @@ _5. Por último, regresamos a la carpeta principal del proyecto digitando 3 vece
   cd ..
 ```
 _Despues de este paso es necesario, verificar que en el shell aparezca esta ruta como la actual:_
+
+<img width="238" alt="img 2" src="https://user-images.githubusercontent.com/45157348/77068097-052bae80-69b4-11ea-9d5c-004ce93905da.PNG">
+
 ### Despliegue aplicación OpenShift
 
 _9.	Para desplegar la aplicación en OpenShift es necesario escribir el siguiente comando:_
