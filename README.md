@@ -127,17 +127,17 @@ cd AngularWebFrontCRUD
 
 ### Cambio credenciales CRUD en el proyecto Angular 
 
-** En caso de no haber desplegado el Back, se puede manejar la conexión que ya se encuentra en el OpenShift y puede seguir al siguiente paso de la guía  ** 
+** En caso de no haber desplegado el Back, se puede manejar la conexión que ya se encuentra en el OpenShift y puede seguir al siguiente paso de la guía que seria el despliegue de la aplicación en OpenShift  ** 
 
 _Despues de realizar el despliegue del Backend del CRUD en OpenShift es necesario cambiar las credenciales de acceso desde el FRONT, por lo tanto se debe seguir los siguientes pasos para modificar el archivo query.service.ts, el cual es donde está ubicado la conexión al BackEnd:_
 
-_1. Desde el shell de IBM Cloud digitamos este comando para ir a la locación del archivo que vamos a editar:_
+_1. Desde el shell de IBM Cloud se digita el comando para ir a la locación del archivo que vamos a editar:_
 ```
 cd src/app/services
 ```
 _Este comando lo que hace es redirigir a la carpeta donde esta alojado el archivo previamente mencionado_
 
-_2. Para editar el archivo vamos a utilizar el editor de texto por defecto del IBM Cloud Shell, el cual es nano, por lo tanto se debe digitar el siguiente comando para modificar las credenciales:_
+_2. Para editar el archivo se va a utilizar el editor de texto por defecto del IBM Cloud Shell, el cual es nano, por lo tanto se debe digitar el siguiente comando para modificar las credenciales:_
 ```
 nano query.service.ts
 ```
@@ -163,7 +163,7 @@ _Despues de este paso es necesario, verificar que en el shell aparezca esta ruta
 
 <img width="238" alt="img 2" src="https://user-images.githubusercontent.com/45157348/77068097-052bae80-69b4-11ea-9d5c-004ce93905da.PNG">
 
-### Despliegue aplicación OpenShift
+### Despliegue de la aplicación en OpenShift
 
 _9.	Para desplegar la aplicación en OpenShift es necesario escribir el siguiente comando:_
 ```
