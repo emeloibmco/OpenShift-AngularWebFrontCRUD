@@ -2,6 +2,8 @@
 
 Esta aplicación se construyó para ser el FRONT o interfaz de usuario de una arquitectura multi-capa. Esta aplicación de ejemplo es una aplicación que permite crear transacciones (giros), que son almacenados en una base de datos.
 
+La siguiente es la URL de el despliegue de esta aplicación demo: http://efecty-app-default.openshift311-ea9753cca330b7f05a99ad5b2c8b5da1-0001.us-east.containers.appdomain.cloud/inicio
+
 La aplicación esta compuesta por 3 contenedores:
 
 - El Front, front desarrollado en Angular, para la interfaz de usuario Web --> Esta guía 
