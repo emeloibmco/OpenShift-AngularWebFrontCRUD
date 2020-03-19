@@ -26,6 +26,10 @@ Por último, se observa la siguiente opción del menu de bienvenida que es el de
 
 <img width="700" alt="efecty lista" src="https://user-images.githubusercontent.com/45157348/77029486-cf61d800-6969-11ea-842b-41a76b10814a.PNG">
 
+# Pre-requisitos
+
+- Haber realizado y desplegado el Backend del CRUD y la creación de la base de datos del link: https://github.com/emeloibmco/AngularWebCRUDMongo
+
 
 # Despliegue en OpenShift desde IBM Cloud shell: 🚀
 
@@ -106,7 +110,7 @@ oc project <projectname>
 
 _6.	Clone el repositorio de la aplicación que se desea desplegar._
 
-_**URL app de AngularWebFrontCRUD:** https://github.com/emeloibmco/AngularHelloWorld_
+_**URL app de AngularWebFrontCRUD:** https://github.com/emeloibmco/AngularWebFrontCRUD.git_
 
 
 _7.	Desde el Shell de IBM cloud digite el comando:_
