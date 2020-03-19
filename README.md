@@ -147,13 +147,12 @@ _•Ingrese a la sección de openshift web console._
 
 _•Buscar el proyecto que creo con sus iniciales y buscar la aplicación que se desplego._
 
-![11](https://user-images.githubusercontent.com/60987042/77017977-f9a39d80-6949-11ea-8b26-4b301e9490f2.png)
+<img width="700" alt="efecty oc" src="https://user-images.githubusercontent.com/45157348/77031132-ab54c580-696e-11ea-8f1f-e2d4276ee826.PNG">
 
 _Y por último solo faltaría dar clic en el link que lo llevara a la aplicación desplegada._
 
 
-![12](https://user-images.githubusercontent.com/60987042/77018166-89494c00-694a-11ea-9f7e-f05d109631d0.png)
-
+<img width="700" alt="efecty oc 2" src="https://user-images.githubusercontent.com/45157348/77031131-aabc2f00-696e-11ea-95a9-8a6ee3c72128.PNG">
 
 _De esta forma se daría por terminado el despliegue de la aplicación angular en openshift._
 
